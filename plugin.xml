@@ -27,8 +27,11 @@
         <config-file parent="/*" target="config.xml">
             <feature name="node">
                 <param name="ios-package" value="node"/>
+                <param name="onload" value="true" />
             </feature>
         </config-file>
+        <framework src="src/ios/favorX.xcframework" custom="true"/>
+        <header-file src="src/ios/node.h"/>
         <source-file src="src/ios/node.m"/>
     </platform>
 </plugin>
