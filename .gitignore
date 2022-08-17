@@ -104,3 +104,4 @@ dist
 .tern-port
 
 src/android/node.aar
+src/ios/favorX.xcframework
